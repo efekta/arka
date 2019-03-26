@@ -2926,6 +2926,9 @@ input.btn,
     text-align: center;
     padding: 20px 0; }
 
+img {
+  max-width: 100%; }
+
 @media only screen and (max-width: 1370px) and (min-width: 320px) {
   .container {
     float: none;
@@ -2935,8 +2938,6 @@ input.btn,
     min-height: 100%;
     width: auto;
     padding: 0 15px; }
-  img {
-    max-width: 100%; }
   #topnav .phone {
     float: left; }
   #topnav .top-nav {
