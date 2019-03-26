@@ -2949,9 +2949,6 @@ input.btn,
     .mb-hidden a {
       font-size: 20px;
       color: #46126d; }
-  .mb-hidden .accordion {
-    width: 100%;
-    max-width: 100%; }
   .mob-nav {
     background-color: #46126d;
     position: fixed;
