@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1370px) and (min-width: 320px) {
+.container {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 290px;
+    min-height: 100%;
+    width: auto;
+    padding: 0 15px;
+}
+img {
+  max-width: 100%;
+  // height: auto;
+}
+#topnav .phone {
+    float: left;
+}
+#topnav .top-nav {
+	display: none;
+}
+.mb-hidden {
+    display: block;
+    li {
+      padding: 30px;
+      border-bottom: 1px solid #46126d;
+    }
+    a {
+      font-size: 20px;
+      color: #46126d;
+    }
+}
+
+.mob-nav { // этот стиль есть в файле menu.scss
+	  background-color: #46126d;
+	  position: fixed;
+    right: -100%;
+    top: 60px;
+    bottom: 0;
+    width: 270px;
+    z-index: 15;
+    opacity: 0;
+    overflow: scroll;
+    -webkit-transition: left .4s,opacity .3s;
+    transition: left .4s,opacity .3s;
+    padding: 30px;
+}
+
+.mob-nav.show {
+    right: 0;
+    opacity: 1;
+}
+#topnav .mob-nav li {
+    display: block;
+}
+.menu-toggle {
+	display: block;
+}
+.accordion {
+  width: 100%;
+  max-width: 360px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 20px 20px 20px 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link { border-bottom: 0; }
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 18px;
+}
+
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+
+ /* Submenu
+ -----------------------------*/
+
+
+.submenu {
+  display: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  padding-left: 40px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+  background: #b63b4d;
+  color: #FFF;
+}
+
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+	.mob-nav {
+		width: 80%;
+	}
+	.accordion {
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+}

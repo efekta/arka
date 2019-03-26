@@ -1,0 +1,29 @@
+.clr{
+	float: none;
+	clear:both;
+}
+$pink: #522974;
+.width923,
+.container{
+	max-width: 1100px;
+	margin:0 auto;
+}
+.margintop0{
+	margin-top: 0 !important;
+}
+@import "css/reset";
+@import "../fonts/fonts";
+// @import "css/font-awesome";
+@import "css/nivo-slider";
+@import "css/colorbox";
+@import "css/jquery.timepicker";
+@import "css/jquery.fancybox";
+@import "css/owl.carousel.min";
+@import "css/style";
+@import "css/head";
+@import "css/menu";
+@import "css/button";
+@import "css/video";
+@import "css/category";
+@import "css/gallery";
+@import "css/adaptive";

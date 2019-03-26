@@ -1,0 +1,11 @@
+.gallery-item {
+  margin-bottom: 20px; }
+  .gallery-item-body {
+    overflow: hidden; }
+    .gallery-item-body .gallery-item {
+      float: left;
+      width: 25%; }
+      .gallery-item-body .gallery-item img {
+        display: block;
+        width: 100%;
+        height: auto; }
