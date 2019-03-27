@@ -2462,14 +2462,10 @@ form.mainbutton input.btn:active,
   -webkit-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease; }
-  body.fixed-nav #topnav {
-    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    opacity: 0.8; }
-    body.fixed-nav #topnav:hover {
-      opacity: 1; }
+  body.fixed-nav #topnav:hover {
+    opacity: 1; }
   #topnav .logo {
-    width: 300px;
+    width: 250px;
     padding: 10px;
     padding-left: 20px; }
     #topnav .logo img {
@@ -2566,10 +2562,6 @@ form.mainbutton input.btn:active,
 /* LOGO и ТЕЛЕФОН */
 #headlogocontact {
   border-top: 1px solid #5f3485; }
-
-#headlogocontact .carrier {
-  width: 980px;
-  margin: 0 auto; }
 
 #headlogocontact .logo {
   float: left; }
@@ -2929,14 +2921,27 @@ input.btn,
 img {
   max-width: 100%; }
 
-@media only screen and (max-width: 1370px) and (min-width: 320px) {
+.mob-nav::-webkit-scrollbar {
+  width: 0; }
+
+.mob-nav::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0 transparent; }
+
+.mob-nav::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  outline: 0 solid transparent; }
+
+.accordion2 {
+  padding-left: 45px; }
+
+.submenu2 {
+  padding-left: 50px; }
+
+@media only screen and (max-width: 1068px) and (min-width: 320px) {
   .container {
-    float: none;
     margin-left: auto;
     margin-right: auto;
-    min-width: 290px;
-    min-height: 100%;
-    width: auto;
+    max-width: 1170px;
     padding: 0 15px; }
   #topnav .phone {
     float: left; }
@@ -2959,7 +2964,6 @@ img {
     width: 270px;
     z-index: 15;
     opacity: 0;
-    overflow: hidden;
     -webkit-transition: left .4s,opacity .3s;
     -o-transition: left .4s,opacity .3s;
     transition: left .4s,opacity .3s;
@@ -3013,6 +3017,7 @@ img {
     background: transparent;
     font-size: 16px; }
   .submenu a {
+    position: relative;
     display: block;
     text-decoration: none;
     color: #fff;

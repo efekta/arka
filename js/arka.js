@@ -251,13 +251,40 @@ $(function() {
     $this.parent().toggleClass('open');
 
     if (!e.data.multiple) {
-      $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+      $el.find('.submenu, .submenu2').not($next).slideUp().parent().removeClass('open');
     };
   } 
 
-  var accordion = new Accordion($('#accordion'), false);
+  var accordion = new Accordion($('#accordion, #accordion2'), false);
 });
 
+
+// $(function() {
+//   var Accordion2 = function(el, multiple) {
+//     this.el = el || {};
+//     this.multiple = multiple || false;
+
+//     // Variables privadas
+//     var links = this.el.find('.link');
+//     // Evento
+//     links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+//   }
+
+//   Accordion.prototype.dropdown = function(e) {
+//     var $el = e.data.el;
+//       $this = $(this),
+//       $next = $this.next();
+
+//     $next.slideToggle();
+//     $this.parent().toggleClass('open');
+
+//     if (!e.data.multiple) {
+//       $el.find('.submenu2').not($next).slideUp().parent().removeClass('open');
+//     };
+//   } 
+
+//   var accordion2 = new Accordio2($('#accordion2'), false);
+// });
 }
 
 

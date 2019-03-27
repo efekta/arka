@@ -14,14 +14,14 @@
 	opacity: 1;
 	transition: opacity .3s ease;
 	body.fixed-nav &{
-		box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); // В fixed;
-		opacity: 0.8;
+		// box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); // В fixed;
+		// opacity: 0.8;
 		&:hover{
 			opacity: 1;	
 		}
 	}
 	.logo{
-		width: 300px;
+		width: 250px;
 		padding: 10px;
 		padding-left: 20px;
 		img{
@@ -135,10 +135,10 @@
 #headlogocontact{
 	border-top:1px solid #5f3485;	
 }
-#headlogocontact .carrier{
-	width:980px;
-	margin:0 auto;		
-}
+// #headlogocontact .carrier{
+// 	width: 980px;
+// 	margin:0 auto;		
+// }
 #headlogocontact .logo{
 	float:left;
 }
@@ -222,3 +222,12 @@
     -ms-transform: rotate(-45deg) translate(14px, -15px);
     transform: rotate(-45deg) translate(14px, -15px);
 }
+// .social {
+//     float: left;
+//     margin-left: 20px;
+//     li {
+//         display: inline-block;
+//         vertical-align: middle;
+//         margin: 0 5px;
+//     }
+// }
