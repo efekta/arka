@@ -2465,14 +2465,14 @@ form.mainbutton input.btn:active,
   body.fixed-nav #topnav:hover {
     opacity: 1; }
   #topnav .logo {
-    width: 250px;
+    width: 200px;
     padding: 10px;
     padding-left: 20px; }
     #topnav .logo img {
       max-width: 100%;
       height: auto; }
   #topnav .top-nav {
-    width: calc(100% - 600px);
+    width: calc(100% - 520px);
     font-size: 18px;
     font-family: Cond_medium, Tahoma;
     shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
@@ -2647,7 +2647,7 @@ form.mainbutton input.btn:active,
     text-shadow: 0px 1px 2px black;
     position: relative; }
   #topnav .top-nav li, #topnav .top-nav li a {
-    padding: 24px 0 16px; }
+    padding: 24px 5px 16px; }
   #topnav .top-nav li a {
     color: #fff;
     cursor: pointer; }
@@ -2937,12 +2937,15 @@ img {
 .submenu2 {
   padding-left: 50px; }
 
-@media only screen and (max-width: 1068px) and (min-width: 320px) {
+@media only screen and (max-width: 1284px) and (min-width: 320px) {
   .container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1170px;
     padding: 0 15px; }
+  #topnav .date {
+    right: 70px;
+    z-index: 1000; }
   #topnav .phone {
     float: left; }
   #topnav .top-nav {
@@ -3030,11 +3033,36 @@ img {
     background: #b63b4d;
     color: #FFF; } }
 
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+  .video_col {
+    width: 49%;
+    margin-bottom: 10px; } }
+
 @media only screen and (max-width: 768px) and (min-width: 320px) {
   .mob-nav {
     width: 80%; }
   .accordion {
     width: 100%;
-    max-width: 100%; } }
+    max-width: 100%; }
+  .video_col {
+    width: 100%;
+    margin-bottom: 20px; }
+  .width670 {
+    width: 100%; }
+  #content .contact .font_top, #content .contact .font_bottom, #content .contact .font_center {
+    margin: 0 30px;
+    background: #fff; }
+  #content .contact .schem {
+    width: 100%;
+    float: none;
+    border: none; }
+  #content .contact .font_center {
+    padding: 0; }
+  #content .contact .text {
+    margin-left: 0;
+    text-align: center; }
+  #content .contact .text p strong {
+    margin-top: 20px;
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

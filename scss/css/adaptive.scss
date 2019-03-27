@@ -18,7 +18,7 @@ img {
 .submenu2 {
   padding-left: 50px;
 }
-@media only screen and (max-width: 1068px) and (min-width: 320px) {
+@media only screen and (max-width: 1284px) and (min-width: 320px) {
 .container {
     // float: none;
     margin-left: auto;
@@ -29,7 +29,10 @@ img {
     // width: auto;
     padding: 0 15px;
 }
-
+#topnav .date {
+  right: 70px;
+  z-index: 1000;
+}
 #topnav .phone {
     float: left;
 }
@@ -148,6 +151,12 @@ img {
 }
 
 }
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+.video_col {
+  width: 49%;
+  margin-bottom: 10px;
+}
+}
 @media only screen and (max-width: 768px) and (min-width: 320px) {
 	.mob-nav {
 		width: 80%;
@@ -156,5 +165,34 @@ img {
 	    width: 100%;
 	    max-width: 100%;
 	}
-
+  .video_col {
+    width:100%;
+    margin-bottom: 20px;
+  }
+  .width670 {
+    width: 100%;
+  }
+  #content .contact .font_top, #content .contact .font_bottom, #content .contact .font_center {
+    // padding-top: 0;
+    // padding-bottom: 0;
+    margin: 0 30px;
+    background: #fff;
+  }
+  #content .contact .schem {
+    width: 100%;
+    // height: auto;
+    float: none;
+    border: none;
+  }
+  #content .contact .font_center {
+    padding: 0;
+  }
+  #content .contact .text {
+    margin-left: 0;
+    text-align: center;
+  }
+  #content .contact .text p strong {
+    margin-top: 20px;
+    display: block;
+  }
 }
