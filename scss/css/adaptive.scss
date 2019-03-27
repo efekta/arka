@@ -1,6 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 img {
     max-width: 100%;
-
+    width: 100%;
+    height: auto;
 }
 .mob-nav::-webkit-scrollbar {
     width: 0;
@@ -19,15 +28,10 @@ img {
   padding-left: 50px;
 }
 @media only screen and (max-width: 1284px) and (min-width: 320px) {
-.container {
-    // float: none;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1170px;
-    // min-width: 290px;
-    // min-height: 100%;
-    // width: auto;
-    padding: 0 15px;
+.width923, .container {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
 #topnav .date {
   right: 70px;
@@ -156,6 +160,10 @@ img {
   width: 49%;
   margin-bottom: 10px;
 }
+.width980 {
+  width: 90%;
+  margin: 0 auto;
+}
 }
 @media only screen and (max-width: 768px) and (min-width: 320px) {
 	.mob-nav {
@@ -172,13 +180,19 @@ img {
   .width670 {
     width: 100%;
   }
-  #content .contact .font_top, #content .contact .font_bottom, #content .contact .font_center {
+  #content .contact .font_top, 
+  #content .contact .font_bottom, 
+  #content .contact .font_center,
+  .contacts_carrier .fon1,
+  .contacts_carrier .fon2,
+  .contacts_carrier .fon3 {
     // padding-top: 0;
     // padding-bottom: 0;
-    margin: 0 30px;
+    margin: 0;
     background: #fff;
   }
-  #content .contact .schem {
+  #content .contact .schem,
+  .contacts_carrier .schem {
     width: 100%;
     // height: auto;
     float: none;
@@ -187,12 +201,38 @@ img {
   #content .contact .font_center {
     padding: 0;
   }
-  #content .contact .text {
+  #content .contact .text,
+  .contacts_carrier .text {
     margin-left: 0;
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .contacts_carrier .text h3 {
     text-align: center;
   }
   #content .contact .text p strong {
     margin-top: 20px;
     display: block;
   }
+  #contact_form form {
+    width: 90%;
+  }
+  #contact_form label {
+    width: 100%;
+    text-align: center;
+    display: block;
+    float: none;
+    line-height: inherit;
+    // margin-bottom: 5px;
+}
+#contact_form form input:not(.btn), 
+#contact_form form textarea:not(.btn), 
+#contact_form form select:not(.btn) {
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 100%;
+    // margin-top: 5px;
+    // margin-left: 0;
+    }
 }
