@@ -11,6 +11,9 @@ img {
     width: 100%;
     height: auto;
 }
+#content.page  {
+  margin-top: 0;
+}
 .mob-nav::-webkit-scrollbar {
     width: 0;
 }
@@ -246,6 +249,9 @@ img {
     // margin-top: 5px;
     // margin-left: 0;
     }
+.video_carrier {
+    padding: 0 15px;
+  }
 }
 @media only screen and (max-width: 540px) and (min-width: 320px) {
   #topnav .logo, #topnav .phone {

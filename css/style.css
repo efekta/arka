@@ -2939,6 +2939,9 @@ img {
   width: 100%;
   height: auto; }
 
+#content.page {
+  margin-top: 0; }
+
 .mob-nav::-webkit-scrollbar {
   width: 0; }
 
@@ -3115,7 +3118,9 @@ img {
   #contact_form form select:not(.btn) {
     padding: 10px 10px;
     font-size: 14px;
-    width: 100%; } }
+    width: 100%; }
+  .video_carrier {
+    padding: 0 15px; } }
 
 @media only screen and (max-width: 540px) and (min-width: 320px) {
   #topnav .logo, #topnav .phone {
