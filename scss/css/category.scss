@@ -1,10 +1,15 @@
 #category{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	overflow: hidden;
 	.category-item{
 		margin: 2px 1px 0 1px;
-		width: calc(25% - 2px);
+		width: 33%;
+		// width: calc(25% - 2px);
 		height: 250px;
-		float: left;
+		// float: left;
+
 		overflow: hidden;
 		position: relative;
 		background-color: #000;
