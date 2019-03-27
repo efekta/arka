@@ -170,6 +170,8 @@ img {
   margin-bottom:10px
 }
 }
+
+
 @media only screen and (max-width: 768px) and (min-width: 320px) {
 	.mob-nav {
 		width: 80%;
@@ -245,3 +247,48 @@ img {
     // margin-left: 0;
     }
 }
+@media only screen and (max-width: 540px) and (min-width: 320px) {
+  #topnav .logo, #topnav .phone {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  #topnav .phone a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  #topnav .logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .date {
+    display: none;
+  }
+  #topnav .phone a{
+    margin-bottom: 30px;
+  }
+  #mainbutton {
+    padding-top: 30px;
+  }
+  #mainbutton a {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #mainbutton .colon_fon {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 540px) and (min-width: 320px) {
+    #mainbutton a {
+      width: 95%;
+    }
+    .mob-nav {
+      top: 133px;
+    }
+ }
