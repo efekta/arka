@@ -2959,7 +2959,7 @@ img {
     width: 270px;
     z-index: 15;
     opacity: 0;
-    overflow: scroll;
+    overflow: hidden;
     -webkit-transition: left .4s,opacity .3s;
     -o-transition: left .4s,opacity .3s;
     transition: left .4s,opacity .3s;
