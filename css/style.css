@@ -2446,7 +2446,6 @@ form.mainbutton input.btn:active,
   box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.75); }
 
 #head {
-  background: url("../img/bg-head.png") top left repeat;
   color: #FFF;
   padding-top: 60px; }
 
@@ -3091,9 +3090,11 @@ img {
     margin-bottom: 20px; }
   #category .category-item {
     width: 100%;
-    margin: 20px; }
+    margin: 0 20px 20px 20px; }
   .width670 {
     width: 100%; }
+  #content .contact .font_top {
+    padding-top: 0; }
   #content .contact .font_top,
   #content .contact .font_bottom,
   #content .contact .font_center,
@@ -3162,8 +3163,8 @@ img {
     margin: 0 auto; }
   #topnav .phone a {
     margin-bottom: 30px; }
-  #mainbutton {
-    padding-top: 85px; }
+  .bg-page {
+    margin-top: 73px; }
   #mainbutton a {
     font-size: 16px;
     display: block;

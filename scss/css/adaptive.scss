@@ -201,10 +201,13 @@ img {
   }
   #category .category-item {
     width: 100%;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
   }
   .width670 {
     width: 100%;
+  }
+  #content .contact .font_top {
+    padding-top: 0;
   }
   #content .contact .font_top, 
   #content .contact .font_bottom, 
@@ -299,9 +302,13 @@ img {
   #topnav .phone a{
     margin-bottom: 30px;
   }
-  #mainbutton {
-    padding-top: 85px;
+  .bg-page {
+    margin-top: 73px;
   }
+
+  // #mainbutton {
+  //   padding-top: 85px;
+  // }
   #mainbutton a {
     font-size: 16px;
     display: block;
