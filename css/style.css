@@ -1088,7 +1088,7 @@ a:hover {
   margin: 0 auto;
   position: relative;
   z-index: 80;
-  padding: 20px 0; }
+  padding: 10px 0; }
 
 #mainbutton a {
   /*position: absolute;
@@ -1882,8 +1882,8 @@ name
   padding: 35px 35px; }
 
 #content .contact .schem {
-  width: 320px;
-  height: 282px;
+  width: 325px;
+  height: 285px;
   float: left;
   border: 1px solid #d6d6d6; }
 
@@ -2465,14 +2465,14 @@ form.mainbutton input.btn:active,
   body.fixed-nav #topnav:hover {
     opacity: 1; }
   #topnav .logo {
-    width: 200px;
+    width: 300px;
     padding: 10px;
     padding-left: 20px; }
     #topnav .logo img {
       max-width: 100%;
       height: auto; }
   #topnav .top-nav {
-    width: calc(100% - 520px);
+    width: calc(100% - 600px);
     font-size: 18px;
     font-family: Cond_medium, Tahoma;
     shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
@@ -2809,8 +2809,8 @@ input.btn,
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   overflow: hidden; }
   #category .category-item {
     margin: 2px 1px 0 1px;
@@ -2874,10 +2874,16 @@ input.btn,
   .gallery .group-item {
     margin-bottom: 20px; }
     .gallery .group-item-body {
-      overflow: hidden; }
+      overflow: hidden;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
       .gallery .group-item-body .gallery-item {
-        float: left;
-        width: calc(20% - 4px);
         margin: 0 4px 4px 0;
         position: relative;
         cursor: pointer; }
@@ -2936,7 +2942,6 @@ html, body {
 
 img {
   max-width: 100%;
-  width: 100%;
   height: auto; }
 
 #content.page {
@@ -2962,7 +2967,7 @@ img {
   .width923, .container {
     max-width: 100%;
     margin: 0 auto;
-    width: 100%;
+    width: auto;
     padding: 0 20px; }
   #topnav .date {
     right: 70px;
@@ -3061,9 +3066,19 @@ img {
   .width980 {
     width: 90%;
     margin: 0 auto; }
+  #category {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
   #category .category-item {
     width: 49%;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .gallery .group-item-body {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .group-item-body a {
+    width: 50%; }
+  input.btn, .btn {
+    font-size: 18px; } }
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
   .mob-nav {
@@ -3076,7 +3091,7 @@ img {
     margin-bottom: 20px; }
   #category .category-item {
     width: 100%;
-    margin-bottom: 20px; }
+    margin: 20px; }
   .width670 {
     width: 100%; }
   #content .contact .font_top,
@@ -3120,9 +3135,19 @@ img {
     font-size: 14px;
     width: 100%; }
   .video_carrier {
-    padding: 0 15px; } }
+    padding: 0 15px; }
+  .contacts_carrier .fon3 {
+    padding: 0; }
+  #content .contact .schem, .contacts_carrier .schem {
+    margin-bottom: 20px; }
+  .gallery .group-item-body .gallery-item {
+    margin: 20px; }
+  .group-item-body a {
+    width: 100%; }
+  .date {
+    display: none; } }
 
-@media only screen and (max-width: 540px) and (min-width: 320px) {
+@media only screen and (max-width: 560px) and (min-width: 320px) {
   #topnav .logo, #topnav .phone {
     display: block;
     width: 100%;
@@ -3135,12 +3160,10 @@ img {
   #topnav .logo {
     width: 50%;
     margin: 0 auto; }
-  .date {
-    display: none; }
   #topnav .phone a {
     margin-bottom: 30px; }
   #mainbutton {
-    padding-top: 30px; }
+    padding-top: 85px; }
   #mainbutton a {
     font-size: 16px;
     display: block;
@@ -3152,9 +3175,9 @@ img {
     margin-top: 30px; } }
 
 @media only screen and (max-width: 540px) and (min-width: 320px) {
-  #mainbutton a {
-    width: 95%; }
   .mob-nav {
-    top: 133px; } }
+    top: 133px; }
+  #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

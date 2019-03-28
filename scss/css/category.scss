@@ -1,7 +1,7 @@
 #category{
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	overflow: hidden;
 	.category-item{
 		margin: 2px 1px 0 1px;

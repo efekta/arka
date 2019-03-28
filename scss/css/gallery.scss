@@ -12,9 +12,14 @@
 		margin-bottom: 20px;
 		&-body{
 			overflow: hidden;
+			display: flex;
+		    justify-content: space-between;
+		    // flex-direction: column;
+		    flex-wrap: nowrap;
 			.gallery-item{
-				float: left;
-				width: calc(20% - 4px);
+				// float: left;
+				// width: calc(20% - 4px);
+				// width: 33%;
 				margin: 0 4px 4px 0;
 				position: relative;
 

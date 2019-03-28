@@ -8,7 +8,7 @@ html, body {
 }
 img {
     max-width: 100%;
-    width: 100%;
+    // width: 100%;
     height: auto;
 }
 #content.page  {
@@ -34,7 +34,7 @@ img {
 .width923, .container {
     max-width: 100%;
     margin: 0 auto;
-    width: 100%;
+    width: auto;
     padding: 0 20px;
 }
 #topnav .date {
@@ -160,18 +160,30 @@ img {
 
 }
 @media only screen and (max-width: 1024px) and (min-width: 320px) {
-.video_col {
-  width: 49%;
-  margin-bottom: 10px;
-}
-.width980 {
-  width: 90%;
-  margin: 0 auto;
-}
-#category .category-item {
-  width: 49%;
-  margin-bottom:10px
-}
+  .video_col {
+    width: 49%;
+    margin-bottom: 10px;
+  }
+  .width980 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #category {
+    flex-wrap: wrap;
+  }
+  #category .category-item {
+    width: 49%;
+    margin-bottom:10px
+  }
+  .gallery .group-item-body {
+    flex-wrap: wrap;
+  }
+  .group-item-body a {
+    width: 50%;
+  }
+  input.btn, .btn {
+    font-size:18px
+  }
 }
 
 
@@ -188,9 +200,9 @@ img {
     margin-bottom: 20px;
   }
   #category .category-item {
-  width: 100%;
-  margin-bottom: 20px;
-}
+    width: 100%;
+    margin: 20px;
+  }
   .width670 {
     width: 100%;
   }
@@ -252,8 +264,23 @@ img {
 .video_carrier {
     padding: 0 15px;
   }
+  .contacts_carrier .fon3 {
+    padding: 0;
+  }
+  #content .contact .schem, .contacts_carrier .schem {
+    margin-bottom: 20px;
+  }
+  .gallery .group-item-body .gallery-item {
+    margin: 20px;
+  }
+  .group-item-body a {
+    width: 100%;
+  }
+  .date {
+    display: none;
+  }
 }
-@media only screen and (max-width: 540px) and (min-width: 320px) {
+@media only screen and (max-width: 560px) and (min-width: 320px) {
   #topnav .logo, #topnav .phone {
     display: block;
     width: 100%;
@@ -269,14 +296,11 @@ img {
     width: 50%;
     margin: 0 auto;
   }
-  .date {
-    display: none;
-  }
   #topnav .phone a{
     margin-bottom: 30px;
   }
   #mainbutton {
-    padding-top: 30px;
+    padding-top: 85px;
   }
   #mainbutton a {
     font-size: 16px;
@@ -291,10 +315,13 @@ img {
   }
 }
 @media only screen and (max-width: 540px) and (min-width: 320px) {
-    #mainbutton a {
-      width: 95%;
-    }
+    // #mainbutton a {
+    //   width: 95%;
+    // }
     .mob-nav {
       top: 133px;
+    }
+    #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
+      margin-left: 0;
     }
  }
