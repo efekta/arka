@@ -1,0 +1,69 @@
+.review {
+    padding: 20px 0 40px;
+}
+.review h2 {
+    font-size: 30px;
+    font-family: Cond_medium;
+    text-transform: uppercase;
+    color: #522974;
+    text-align: center;
+    margin: 20px 0;
+}
+.review .review-item-wrapper {
+    padding: 20px 40px;
+}
+.review .review-item {
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    line-height: 1.2em;
+    font-family: Verdana;
+    position: relative;
+}
+.review .review-item .title {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background: #777775;
+    color: #fff;
+    padding: 15px 20px;
+    font-weight: bold;
+    width: 110%;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.review .review-item .title:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid #4d4e4b;
+    border-right: 10px solid #4d4e4b;
+}
+.review .review-item .title i {
+    font-size: 22px;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+}
+.review .review-item .title span {
+    margin-left: 50px;
+    font-size: 18px;
+}
+.review .review-item .body {
+    padding: 70px 40px 0;
+    font-style: italic;
+}
+.review .review-item .body p {
+    margin-bottom: 1em;
+}
+.review .review-item .name {
+    font-style: italic;
+    text-align: right;
+    padding: 0 40px 40px;
+}
