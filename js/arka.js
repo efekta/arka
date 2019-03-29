@@ -212,24 +212,8 @@ function overallHeight() {
   $(".menu-toggle").on('click', function() {
     $(this).toggleClass("on");
     $('.mob-nav').toggleClass("show");
-    // $('.nav').toggleClass("nav_hide");
-    // $('body').toggleClass('overflow');
   });
-  // jQuery(window).width() <= 991 && $(".main-nav__list li").on('click', function() {
-  //   $('.menu-toggle').removeClass("on");
-  //   $('.main-nav__list').removeClass("show");
-  //   // $('.nav').removeClass("nav_hide");
-  //   $('body').removeClass('overflow');
-  //   });
-  //   $('#top-nav .dropdown > a').on('click', function(){
-  //   var clicks = $(this).data('clicks');    
-  //   if (clicks) {
-  //     $(this).parent('.dropdown').find(".sub-menu").hide();
-  //   } else {
-  //     $(this).parent('.dropdown').children( ".sub-menu" ).show();
-  //   }
-  //   $(this).data("clicks", !clicks);    
-  // });
+
 
 $(function() {
   var Accordion = function(el, multiple) {
@@ -259,32 +243,6 @@ $(function() {
 });
 
 
-// $(function() {
-//   var Accordion2 = function(el, multiple) {
-//     this.el = el || {};
-//     this.multiple = multiple || false;
-
-//     // Variables privadas
-//     var links = this.el.find('.link');
-//     // Evento
-//     links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
-//   }
-
-//   Accordion.prototype.dropdown = function(e) {
-//     var $el = e.data.el;
-//       $this = $(this),
-//       $next = $this.next();
-
-//     $next.slideToggle();
-//     $this.parent().toggleClass('open');
-
-//     if (!e.data.multiple) {
-//       $el.find('.submenu2').not($next).slideUp().parent().removeClass('open');
-//     };
-//   } 
-
-//   var accordion2 = new Accordio2($('#accordion2'), false);
-// });
 }
 
 

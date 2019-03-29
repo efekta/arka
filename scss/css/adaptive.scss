@@ -282,8 +282,19 @@ img {
   .date {
     display: none;
   }
+  .products_row .product-item {
+      float: none;
+      width: 100%;
+  }
+  #mainbutton .carrier {
+      display: flex;
+      justify-content: space-between;
+  }
+  input.btn, .btn {
+    font-size: 14px;
+  }
 }
-@media only screen and (max-width: 560px) and (min-width: 320px) {
+@media only screen and (max-width: 565px) and (min-width: 320px) {
   #topnav .logo, #topnav .phone {
     display: block;
     width: 100%;
@@ -318,7 +329,16 @@ img {
     margin-right: auto;
   }
   #mainbutton .colon_fon {
-    margin-top: 30px;
+      margin-top: 75px;
+  }
+  #mainbutton .carrier {
+    flex-wrap: wrap;
+  }
+  .mob-nav {
+    top: 135px;
+  }
+  #contenttabs .tab-content h2 {
+    font-size: 22px;
   }
 }
 @media only screen and (max-width: 540px) and (min-width: 320px) {

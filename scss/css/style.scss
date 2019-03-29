@@ -424,15 +424,16 @@ form.mainbutton input.error{
 #contenttabs .tab-content *{
 	color: #555555;
 	font-family: Arial;
-	font-size: 14px;	
+	font-size: 14px;
+	font-weight: bold;	
 }
-#contenttabs .tab-content .fa{
+#contenttabs .tab-content .fa {
 	font-family: FontAwesome;		
 }
-/*#contenttabs .tab-content .fa,
+#contenttabs .tab-content .fa,
 #contenttabs .tab-content .btn{
 	color: #fff;
-}*/
+}
 
 #contenttabs .tab-content img{
 	max-width: 100%;
