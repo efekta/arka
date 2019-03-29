@@ -159,7 +159,7 @@ img {
 }
 
 }
-@media only screen and (max-width: 1024px) and (min-width: 320px) {
+@media only screen and (max-width: 1034px) and (min-width: 320px) {
   .video_col {
     width: 49%;
     margin-bottom: 10px;
@@ -184,6 +184,10 @@ img {
   input.btn, .btn {
     font-size:18px
   }
+  #content .steps h2 {
+    font-size: 22px;
+  }
+
 }
 
 
@@ -317,9 +321,6 @@ img {
     margin-top: 73px;
   }
 
-  // #mainbutton {
-  //   padding-top: 85px;
-  // }
   #mainbutton a {
     font-size: 16px;
     display: block;
@@ -342,13 +343,10 @@ img {
   }
 }
 @media only screen and (max-width: 540px) and (min-width: 320px) {
-    // #mainbutton a {
-    //   width: 95%;
-    // }
-    .mob-nav {
-      top: 133px;
-    }
-    #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
-      margin-left: 0;
-    }
+  .mob-nav {
+    top: 133px;
+  }
+  #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
+    margin-left: 0;
+  }
  }
