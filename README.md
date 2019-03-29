@@ -1,2 +1,10 @@
 <p><a href="https://efekta.github.io/arka/"># arka</a></p>
 <p><a href="https://efekta.github.io/arka/contacts.html"># contacts</a></p>
+<p><a href="https://efekta.github.io/arka/sale.html"># sale</a></p>
+<p><a href="https://efekta.github.io/arka/galery.html"># galery</a></p>
+<p><a href="https://efekta.github.io/arka/remont.html"># remont</a></p>
+<p><a href="https://efekta.github.io/arka/osnovnoj_zagolovok_v_spiske_statej.html"># osnovnoj_zagolovok_v_spiske_statej</a></p>
+<p><a href="https://efekta.github.io/arka/produkcziya.html"># produkcziya</a></p>
+<p><a href="https://efekta.github.io/arka/avtomatika-i-shlagbaumyi.html"># avtomatika-i-shlagbaumyi</a></p>
+<p><a href="https://efekta.github.io/arka/dlya-sekczionnyix-vorot.html"># dlya-sekczionnyix-vorot</a></p>
+<p><a href="https://efekta.github.io/arka/about-us.html"># about-us</a></p>
