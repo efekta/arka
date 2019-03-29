@@ -280,7 +280,7 @@ $(function() {
   var accordion = new Accordion($('#accordion, #accordion2'), false);
 });
 
-$('.review .review-wrapper').slick({
+$('.review-wrapper').slick({
   dots: false,
   arrows: false,
   infinite: false,
@@ -291,10 +291,10 @@ $('.review .review-wrapper').slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: false
       }
     },
     {

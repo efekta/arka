@@ -4945,7 +4945,8 @@ input.btn,
   margin: 20px 0; }
 
 .review .review-item-wrapper {
-  padding: 20px 40px; }
+  padding: 20px 40px;
+  outline: none; }
 
 .review .review-item {
   border-radius: 2px;
