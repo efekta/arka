@@ -5371,7 +5371,14 @@ img {
 @media only screen and (max-width: 768px) and (min-width: 320px) {
   #content .steps .step1, #content .steps .step2, #content .steps .step3 {
     float: none;
-    width: 100%; }
+    width: 65%;
+    margin: 0 auto; }
+  #content .steps .title {
+    padding-top: 25px; }
+  #content .steps .step1 .title, #content .steps .step1 .desc, #content .steps .step2 .title, #content .steps .step2 .desc, #content .steps .step3 .title, #content .steps .step3 .desc {
+    margin: auto; }
+  #content .steps h2 {
+    font-size: 22px; }
   .mob-nav {
     width: 80%; }
   .modal-wrap .wrapper {
