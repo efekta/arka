@@ -33,7 +33,7 @@
 	align-items: center;
 	position: relative;
 	// width: 47%;
-	height: 157px;
+	// height: 157px;
 	padding: 14px;
 	// padding-right: 0;
 	border: 3px solid #efefef;
@@ -177,18 +177,22 @@
 .advantage-item {
 	// position: absolute;
 	// top: 3px;
-	// left: 3px;
+	// left: 14px;
 	// display: inline-block;
+	// vertical-align: middle;
 	// vertical-align: top;
 	font-size: 14px;
     font-family: Arial;
     line-height: 17px;
 	// width: 65%;
 }
-// .advantage-item_inner {
-// 	right: 0;
-// }
+.advantage-item_inner {
+	// right: 14px;
+    // position: absolute;
+}
 .advantage-pic {
+// 	// position: absolute;
+	// right: 0;
     // position: relative;
     // top: -11px;
  //    right: -25px;
@@ -199,9 +203,10 @@
 		// width: 100%;
 	}
 }
-// .advantage-pic_inner {
-//     left: -11px;
-// }
+.advantage-pic_inner {
+	// position: absolute;
+    // left: 0
+}
 .fz {
 	display: block;
 	font-size: 18px;
