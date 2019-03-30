@@ -1,0 +1,245 @@
+.advantages-wrap {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.advantages-wrap::before {
+	content: "";
+	position: absolute;
+	width: 3px;
+	height: 100%;
+	top: 0;
+	right: 50%;
+	transform: translateX(-50%);
+	background: #d7d7d7;
+}
+.advantages-items {
+	// position: relative;
+	width: 47%;
+	// // height: 157px;
+	// padding: 14px;
+	// padding-right: 0;
+	// border: 3px solid #efefef;
+	// color: #555;
+	// border-top-left-radius: 25px; 
+	// border-bottom-left-radius: 25px;
+	// border-top-right-radius: 180px;
+ //    border-bottom-right-radius: 180px;
+
+}
+.advantages-items-box {
+	display: flex;
+	align-items: center;
+	position: relative;
+	// width: 47%;
+	height: 157px;
+	padding: 14px;
+	// padding-right: 0;
+	border: 3px solid #efefef;
+	color: #555;
+	border-top-left-radius: 25px; 
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 180px;
+    border-bottom-right-radius: 180px;
+    margin-bottom: 30px;
+}
+.advantages-items-box::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+    right: -30px;
+	width: 30px;
+	height: 5px;
+	border-top: 2px solid #efefef;
+	border-bottom: 2px solid #efefef;
+	// border-left: 0px solid #fff;
+    background: #fff;
+    transform: translateY(-50%);
+}
+.advantages-items-box_inner::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+    left: -35px;
+	width: 35px;
+	height: 5px;
+	border-top: 2px solid #efefef;
+	border-bottom: 2px solid #efefef;
+	// border-left: 0px solid #fff;
+    background: #fff;
+    transform: translateY(-50%);
+}
+.items-box_after_1::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: -40px;
+	width: 6px;
+	height: 6px;
+	transform: translateY(-50%);
+	border: 5px solid #efefef;
+	border-radius: 50%;
+	background-color: #814481;
+}
+.items-box_after_2::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: -40px;
+	width: 6px;
+	height: 6px;
+	transform: translateY(-50%);
+	border: 5px solid #efefef;
+	border-radius: 50%;
+	background-color: #0093CA;
+}
+.items-box_after_3::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: -50px;
+	width: 6px;
+	height: 6px;
+	transform: translateY(-50%);
+	border: 5px solid #efefef;
+	border-radius: 50%;
+	background-color: #A7C202;
+}
+.items-box_after_inner_1::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -47px;
+	width: 6px;
+	height: 6px;
+	transform: translateY(-50%);
+	border: 5px solid #efefef;
+	border-radius: 50%;
+	background-color: #814481;
+}
+.items-box_after_inner_2::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -47px;
+	width: 6px;
+	height: 6px;
+	transform: translateY(-50%);
+	border: 5px solid #efefef;
+	border-radius: 50%;
+	background-color: #0093CA;
+}
+.items-box_after_inner_3::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -47px;
+	width: 6px;
+	height: 6px;
+	transform: translateY(-50%);
+	border: 5px solid #efefef;
+	border-radius: 50%;
+	background-color: #5c8205;
+}
+.items-box_after_inner_4::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -47px;
+	width: 6px;
+	height: 6px;
+	transform: translateY(-50%);
+	border: 5px solid #efefef;
+	border-radius: 50%;
+	background-color: #bd6d18;
+}
+.items-box_after_inner_5::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -47px;
+	width: 6px;
+	height: 6px;
+	transform: translateY(-50%);
+	border: 5px solid #efefef;
+	border-radius: 50%;
+	background-color: #60B23F;
+}
+.advantages-items-box_inner {
+	text-align: right;
+	margin-top: 40px;
+	border-top-right-radius: 25px; 
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 180px;
+    border-bottom-left-radius: 180px;
+}
+.advantage-item {
+	// position: absolute;
+	// top: 3px;
+	// left: 3px;
+	// display: inline-block;
+	// vertical-align: top;
+	font-size: 14px;
+    font-family: Arial;
+    line-height: 17px;
+	// width: 65%;
+}
+// .advantage-item_inner {
+// 	right: 0;
+// }
+.advantage-pic {
+    // position: relative;
+    // top: -11px;
+ //    right: -25px;
+	// width: 32%;
+	// display: inline-block;
+	// vertical-align: middle;
+	img {
+		// width: 100%;
+	}
+}
+// .advantage-pic_inner {
+//     left: -11px;
+// }
+.fz {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.color-1 {
+	color: #814481;
+}
+.color-2 {
+	color: #0093CA;;
+}
+.color-3 {
+	color: #5c8205;
+}
+.color-4 {
+	color: #bd6d18;
+}
+
+
+
+
+
+@media only screen and (max-width: 1284px) and (min-width: 320px) {
+// .advantage-pic {
+//     position: relative;
+//     right: -48px;
+//     width: 32%;
+// }
+}
+
+
+
+
+
+
+
+
+
+
+
+

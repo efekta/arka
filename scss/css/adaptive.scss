@@ -8,7 +8,6 @@ html, body {
 }
 img {
     max-width: 100%;
-    // width: 100%;
     height: auto;
 }
 #content.page  {
@@ -184,13 +183,6 @@ img {
   input.btn, .btn {
     font-size:18px
   }
-  // #content .steps h2 {
-  //   font-size: 22px;
-  // }
-// #content .advantages .desc {
-//   width: 100%;
-//   background: transparent;
-// }
 }
 
 
@@ -198,6 +190,15 @@ img {
 	.mob-nav {
 		width: 80%;
 	}
+  .modal-wrap .wrapper {
+    width: 90%;
+  }
+  .modal_div h2 {
+    font-size: 22px;
+  }
+  .review .review-item .title {
+    width: 106%;
+  }
 	.accordion {
 	    width: 100%;
 	    max-width: 100%;
