@@ -166,6 +166,12 @@ img {
   #content .steps .step1, #content .steps .step2, #content .steps .step3 {
     float: left;
     width: 50%;
+    margin-bottom: 20px;
+  }
+  .steps3 .carrier {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 @media only screen and (max-width: 1034px) and (min-width: 320px) {
@@ -239,11 +245,11 @@ img {
     padding-top: 25px;
 }
 
-.steps3 .carrier {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+// .steps3 .carrier {
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+// }
 #content .steps .step1 .title, 
 #content .steps .step1 .desc, 
 #content .steps .step2 .title, 
