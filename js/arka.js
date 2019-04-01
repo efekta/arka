@@ -285,7 +285,7 @@ $(function() {
   var accordion = new Accordion($('#accordion, #accordion2'), false);
 });
 
-$('.review-wrapper').slick({
+$('review .review-wrapper').slick({
   dots: false,
   arrows: false,
   infinite: false,
