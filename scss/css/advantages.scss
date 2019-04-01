@@ -190,7 +190,7 @@
 	// right: 14px;
     // position: absolute;
 }
-.advantage-pic {
+.advantage-pic, .advantage-pic_inner {
 // 	// position: absolute;
 	// right: 0;
     // position: relative;
@@ -200,7 +200,9 @@
 	// display: inline-block;
 	// vertical-align: middle;
 	img {
-		// width: 100%;
+	max-width: none;
+    height: auto;
+    width: auto;
 	}
 }
 .advantage-pic_inner {

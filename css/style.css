@@ -5199,6 +5199,11 @@ input.btn,
   font-family: Arial;
   line-height: 17px; }
 
+.advantage-pic img, .advantage-pic_inner img {
+  max-width: none;
+  height: auto;
+  width: auto; }
+
 .fz {
   display: block;
   font-size: 18px;
