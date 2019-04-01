@@ -6042,9 +6042,7 @@ img {
   .contacts_carrier .fon3 {
     padding: 0; }
   #content .contact .schem, .contacts_carrier .schem {
-    margin-bottom: 20px; }
-  .contacts_carrier .text h3 {
-    font-size: 24px; } }
+    margin-bottom: 20px; } }
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
   #content .steps .step1, #content .steps .step2, #content .steps .step3 {
@@ -6101,17 +6099,13 @@ img {
 
 @media only screen and (max-width: 565px) and (min-width: 320px) {
   h2 {
-    font-size: 24px !important; }
+    font-size: 26px !important; }
   h1 {
     font-size: 28px !important; }
-  #contenttabs .tab-content h2 {
+  h3 {
     font-size: 24px !important; }
-  #content .contact .text h3 {
-    font-size: 24px !important; }
-  #contact_form h3 {
-    font-size: 24px !important; }
-  .contacts_carrier .text h3 {
-    font-size: 24px !important; }
+  p {
+    font-size: 16px !important; }
   #mainbutton .colon_fon.mt0 {
     margin-top: 0; }
   #topnav .logo, #topnav .phone {
