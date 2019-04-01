@@ -5573,4 +5573,8 @@ img {
   #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
     margin-left: 0; } }
 
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+  #mainbutton a {
+    width: 75%; } }
+
 /*# sourceMappingURL=style.css.map */
