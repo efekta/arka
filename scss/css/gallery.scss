@@ -8,23 +8,23 @@
 	    text-align: center;
 	    margin-bottom: 30px;
 	}
-	.group-item{
+	.group-item {
 		margin-bottom: 20px;
 		&-body{
 			overflow: hidden;
-			display: flex;
-			justify-content: space-between;
+			// display: flex;
+			// justify-content: space-between;
 		    // justify-content: center;
 		    // flex-direction: column;
-		    flex-wrap: wrap;
+		    // flex-wrap: wrap;
 		    a {
-		    	width: 33%;
+		    	// width: 33%;
 		    }
 			.gallery-item{
-				// float: left;
-				// width: calc(20% - 4px);
+				float: left;
+				width: calc(20% - 8px);
 				// width: 33%;
-				margin: 0 4px 8px 0;
+				margin: 0 4px 4px 4px;
 				position: relative;
 
 				cursor: pointer;
