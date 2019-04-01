@@ -17,7 +17,9 @@ $pink: #522974;
 @import "css/nivo-slider";
 @import "css/colorbox";
 @import "css/jquery.timepicker";
-@import "css/jquery.fancybox";
+@import "../libs/fancybox/jquery.fancybox";
+
+// @import "css/jquery.fancybox";
 // @import "css/owl.carousel.min";
 @import "css/style";
 @import "css/head";
