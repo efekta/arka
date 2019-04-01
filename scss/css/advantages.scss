@@ -17,7 +17,7 @@
 .advantages-items {
 	// position: relative;
 	width: 47%;
-	// // height: 157px;
+	// height: 157px;
 	// padding: 14px;
 	// padding-right: 0;
 	// border: 3px solid #efefef;
@@ -226,15 +226,25 @@
 }
 
 
+#content .steps .step1 .title, 
+#content .steps .step1 .desc, 
+#content .steps .step2 .title, 
+#content .steps .step2 .desc, 
+#content .steps .step3 .title, 
+#content .steps .step3 .desc {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
 
 
 
 @media only screen and (max-width: 1284px) and (min-width: 320px) {
-// .advantage-pic {
-//     position: relative;
-//     right: -48px;
-//     width: 32%;
-// }
+
 }
 
 

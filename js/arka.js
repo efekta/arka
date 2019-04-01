@@ -5,14 +5,14 @@ $(document).ready(function($){
   });
 
   
-  $( "#tabs_response" ).tabs({show: 'fade', hide: 'fade'});
+  // $( "#tabs_response" ).tabs({show: 'fade', hide: 'fade'});
   
 
-  $('#slider').nivoSlider({
-    controlNav: false, 
-    directionNav: true,
-    pauseTime: 5000
-  });
+  // $('#slider').nivoSlider({
+  //   controlNav: false, 
+  //   directionNav: true,
+  //   pauseTime: 5000
+  // });
 
   // Modals
   var overlay = $('.overlay');
@@ -63,18 +63,18 @@ $(".projects").each(function(){
 
 
 
-function initialize_owl(el) {  
+// function initialize_owl(el) {  
  //  el.owlCarousel({
 	//   items: 3,
 	//   margin: 20,
 	// })
 
-  el.owlCarousel({
-    loop:false,
-    margin:20,
-    nav:true,
-    items: 3
-  })
+  // el.owlCarousel({
+  //   loop:false,
+  //   margin:20,
+  //   nav:true,
+  //   items: 3
+  // })
 
   // var minHeight = 0;
 
@@ -93,7 +93,7 @@ function initialize_owl(el) {
 
   // el.find('.item-project').css("height",minHeight);
   // el.find('.item-project').css("width",'auto');
-}
+// }
 
 // function destroy_owl(el) {
 //     el.data('owlCarousel').destroy();
@@ -174,7 +174,12 @@ $('.gallery .group-item').each(function(index){
      
     obj.find('.gallery-item:lt('+x+')').show();
   }); 
-
+  // $('.review .review-wrapper').owlCarousel({
+  //     loop:false,
+  //     margin:0,
+  //     nav:false,
+  //     items: 3
+  //   })
   // $('.review .review-wrapper').owlCarousel({
   //   loop:false,
   //   margin:0,
@@ -291,7 +296,7 @@ $('.review-wrapper').slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
         dots: false
@@ -313,26 +318,6 @@ $('.review-wrapper').slick({
     }
   ]
 });
-
-// $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     responsiveClass:true,
-//     responsive:{
-//         0:{
-//             items:1,
-//             nav:true
-//         },
-//         600:{
-//             items:1,
-//             nav:false
-//         },
-//         1000:{
-//             items:2,
-//             nav:true,
-//             loop:false
-//         }
-//     }
-// })
 }
 
 
