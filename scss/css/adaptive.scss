@@ -14,6 +14,13 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.submenu2 {
+    display: none;
+}
+.accordion2 {
+    display: none;
+}
 #content {
   line-height: 1.5em;
 }
@@ -336,10 +343,10 @@ form.mainbutton input.ui-timepicker-input,
     border: 1px solid #ccc;
     margin-right: 0;
 }
-#content_carrier .article-item .article-title {
+  #content_carrier .article-item .article-title {
   text-align: center;
   display: block;
-}
+  }
   #content .steps .step1, #content .steps .step2, #content .steps .step3 {
       float: none;
       width: 90%;
@@ -396,7 +403,7 @@ form.mainbutton input.ui-timepicker-input,
   }
   #mainbutton .carrier {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
   }
   input.btn, .btn {
     font-size: 14px;
@@ -444,21 +451,23 @@ form.mainbutton input.ui-timepicker-input,
   #mainbutton a {
     font-size: 14px;
     display: block;
+    width: 100%;
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
   }
+
   input.btn.icons, .btn.icons {
-    padding-left: 0;
+    padding-left: 20px;
   }
   input.btn i, .btn i {
     display: none;
 }
-.menu-toggle {
+  .menu-toggle {
     top: 15px;
     transform: translateY(0);
     right: 15px;
-}
+  }
   #mainbutton .colon_fon {
       margin-top: 75px;
   }
@@ -471,14 +480,25 @@ form.mainbutton input.ui-timepicker-input,
   #topnav .date {
       left: 0;
   }
+  input.btn.btn-small.icons, .btn.btn-small.icons {
+    padding-left: 20px;
+  }
 }
 @media only screen and (max-width: 540px) and (min-width: 320px) {
   #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
     margin-left: 0;
   }
-.review .review-item .body {
-  padding: 70px 20px 0;
+  .review .review-item .body {
+    padding: 70px 20px 0;
  }
+  .ctabs_carrier {
+    padding: 0;
+  }
+  input.btn.btn-small.icons, .btn.btn-small.icons {
+    display: block; 
+    text-align: center; 
+    padding: 12px 20px 8px;
+  }
 }
 @media only screen and (max-width: 425px) and (min-width: 320px) {
 h1 {

@@ -56,7 +56,8 @@ input.btn,
 			position: absolute;
 			margin-right: 10px;
 			left: 0;
-			top: 0;
+    		top: 50%;		
+    		transform: translateY(-50%);
 			padding: 8px 10px 8px;
 			border-right: 1px solid #0d701b;
 
