@@ -234,7 +234,7 @@ img {
     margin-bottom: 20px;
   }
 
-    #content .contact .font_top {
+  #content .contact .font_top {
     padding-top: 0;
   }
   #content .contact .font_top, 
@@ -286,7 +286,7 @@ img {
       font-size: 14px;
       width: 100%;
   }
-.video_carrier {
+  .video_carrier {
     padding: 0 15px;
   }
   .contacts_carrier .fon3 {
@@ -294,6 +294,9 @@ img {
   }
   #content .contact .schem, .contacts_carrier .schem {
     margin-bottom: 20px;
+  }
+  #content .advantages div.title, .advantages-items-box {
+    margin: 0;
   }
 }
 
