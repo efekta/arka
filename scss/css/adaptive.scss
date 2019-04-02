@@ -476,7 +476,10 @@ form.mainbutton input.ui-timepicker-input,
   #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
     margin-left: 0;
   }
+.review .review-item .body {
+  padding: 70px 20px 0;
  }
+}
 @media only screen and (max-width: 425px) and (min-width: 320px) {
 h1 {
   font-size: 24px !important;
