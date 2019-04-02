@@ -310,7 +310,7 @@ img {
       margin: auto;
   }
   .mob-nav {
-		width: 80%;
+		width: 100%;
 	}
   .modal-wrap .wrapper {
     width: 90%;
@@ -387,7 +387,7 @@ img {
     text-align: center;
   }
   #topnav .logo {
-    width: 50%;
+    width: 230px;
     margin: 0 auto;
   }
   #topnav .phone a {
@@ -412,13 +412,13 @@ img {
     flex-wrap: wrap;
   }
   .mob-nav {
-    top: 135px;
+    top: 130px;
   }
 
 }
 @media only screen and (max-width: 540px) and (min-width: 320px) {
   .mob-nav {
-    top: 133px;
+    // top: 120px;
   }
   #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
     margin-left: 0;
