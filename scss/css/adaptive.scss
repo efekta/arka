@@ -7,12 +7,15 @@ html, body {
     margin: 0;
     padding: 0;
 }
-body {
+input.btn, .btn {
     line-height: 1.5em;
 }
 img {
     max-width: 100%;
     height: auto;
+}
+#content {
+  line-height: 1.5em;
 }
 #content.page  {
   margin-top: 0;
@@ -296,7 +299,34 @@ img {
 
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
-  #content_carrier .article-item .article-image {
+// Modal
+.df {
+  margin-bottom: 10px;
+}
+form.mainbutton p.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form.mainbutton input:not(.btn),
+#FormZamer input:not(.btn) {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+form.mainbutton p strong {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+form.mainbutton input.ui-timepicker-input,
+#FormZamer input.i-f {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 18px;
+    width: 48%;
+    border: 1px solid #ccc;
+}
+#content_carrier .article-item .article-image {
     float: none;
     width: 100%;
     padding: 0;
@@ -416,16 +446,15 @@ img {
     margin-right: 5px;
   }
   input.btn.icons, .btn.icons {
-    padding-left: 20px;
+    padding-left: 0;
   }
   input.btn i, .btn i {
-    position: absolute;
-    margin-right: 0;
-    left: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 0;
-    border-right: none;
+    display: none;
+}
+.menu-toggle {
+    top: 15px;
+    transform: translateY(0);
+    right: 15px;
 }
   #mainbutton .colon_fon {
       margin-top: 75px;
@@ -446,7 +475,10 @@ img {
   }
  }
 @media only screen and (max-width: 425px) and (min-width: 320px) {
-  // #mainbutton a {
-  //   width: 75%;
-  // }
+h1 {
+  font-size: 24px !important;
+}
+h2 {
+  font-size: 22px !important;
+}
 }

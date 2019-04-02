@@ -5803,12 +5803,15 @@ html, body {
   margin: 0;
   padding: 0; }
 
-body {
+input.btn, .btn {
   line-height: 1.5em; }
 
 img {
   max-width: 100%;
   height: auto; }
+
+#content {
+  line-height: 1.5em; }
 
 #content.page {
   margin-top: 0; }
@@ -6048,6 +6051,33 @@ img {
     margin-bottom: 20px; } }
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
+  .df {
+    margin-bottom: 10px; }
+  form.mainbutton p.df {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  form.mainbutton input:not(.btn),
+  #FormZamer input:not(.btn) {
+    width: 100%;
+    margin: 0 0 20px 0; }
+  form.mainbutton p strong {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px; }
+  form.mainbutton input.ui-timepicker-input,
+  #FormZamer input.i-f {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 18px;
+    width: 48%;
+    border: 1px solid #ccc; }
   #content_carrier .article-item .article-image {
     float: none;
     width: 100%;
@@ -6141,17 +6171,15 @@ img {
     margin-left: 5px;
     margin-right: 5px; }
   input.btn.icons, .btn.icons {
-    padding-left: 20px; }
+    padding-left: 0; }
   input.btn i, .btn i {
-    position: absolute;
-    margin-right: 0;
-    left: 5px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 0;
-    border-right: none; }
+    display: none; }
+  .menu-toggle {
+    top: 15px;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    right: 15px; }
   #mainbutton .colon_fon {
     margin-top: 75px; }
   #mainbutton .carrier {
@@ -6165,5 +6193,11 @@ img {
 @media only screen and (max-width: 540px) and (min-width: 320px) {
   #contact_form form input:not(.btn), #contact_form form textarea:not(.btn), #contact_form form select:not(.btn) {
     margin-left: 0; } }
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+  h1 {
+    font-size: 24px !important; }
+  h2 {
+    font-size: 22px !important; } }
 
 /*# sourceMappingURL=style.css.map */
