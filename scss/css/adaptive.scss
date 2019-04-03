@@ -15,7 +15,9 @@ input.btn, .btn {
 // }
 #contact_form form input:not(.btn), 
 #contact_form form textarea:not(.btn), 
-#contact_form form select:not(.btn) {
+#contact_form form select:not(.btn)
+form.mainbutton input:not(.btn),
+.modal_div input:not(.btn) {
     border: 1px solid #ccc;
 }
 #content_carrier h1 {
