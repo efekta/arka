@@ -264,7 +264,7 @@ $(function() {
     this.multiple = multiple || false;
 
     // Variables privadas
-    var links = this.el.find('.link');
+    var links = this.el.find('.link', '.link_2');
     // Evento
     links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
   }
