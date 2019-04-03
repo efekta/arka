@@ -3749,7 +3749,7 @@ form.mainbutton input.error {
 #content_carrier .article-item {
   overflow: auto;
   border-bottom: 1px solid #ccc;
-  padding-bottm: 15px;
+  padding-bottom: 15px;
   margin-bottom: 20px; }
 
 #content_carrier .article-item:last-child {
@@ -5809,12 +5809,20 @@ html, body {
 input.btn, .btn {
   line-height: 1.5em; }
 
+#contact_form form input:not(.btn),
+#contact_form form textarea:not(.btn),
+#contact_form form select:not(.btn) {
+  border: 1px solid #ccc; }
+
 #content_carrier h1 {
   line-height: 1.5em; }
 
 img {
   max-width: 100%;
   height: auto; }
+
+#content .steps h2 {
+  margin-bottom: 20px; }
 
 .submenu2 {
   display: none; }
@@ -6064,7 +6072,7 @@ img {
     font-size: 14px;
     width: 100%; }
   .video_carrier {
-    padding: 0 15px; }
+    padding: 0 20px; }
   .contacts_carrier .fon3 {
     padding: 0; }
   #content .contact .schem, .contacts_carrier .schem {
@@ -6122,6 +6130,8 @@ img {
   #content .steps .step3 .title,
   #content .steps .step3 .desc {
     margin: auto; }
+  #content_carrier .article-item {
+    padding: 0; }
   .mob-nav {
     width: 100%; }
   .modal-wrap .wrapper {
@@ -6145,7 +6155,7 @@ img {
     width: 100%; }
   .gallery .group-item-body .gallery-item img {
     margin: auto;
-    width: auto; }
+    width: 100%; }
   .products_row .product-item {
     float: none;
     width: 100%; }
@@ -6185,7 +6195,7 @@ img {
   #topnav .phone a {
     margin-bottom: 30px; }
   .bg-page {
-    margin-top: 73px; }
+    margin-top: 70px; }
   #mainbutton a {
     font-size: 14px;
     display: block;
@@ -6205,6 +6215,8 @@ img {
     right: 15px; }
   #mainbutton .colon_fon {
     margin-top: 75px; }
+  #mainbutton .colon_fon.mt-60 {
+    margin-top: 60px; }
   #mainbutton .carrier {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap; }
@@ -6236,8 +6248,6 @@ img {
     float: none;
     width: 100%;
     margin: 0 20px; }
-  #mainbutton a {
-    padding: 0; }
   #contenttabs .tab-content .fa, #contenttabs .tab-content .btn {
     width: 100%;
     display: block;
@@ -6245,7 +6255,7 @@ img {
   #contenttabs .tab-content .fa {
     display: none; }
   input.btn.btn-small.icons, .btn.btn-small.icons {
-    padding: 5px 0; } }
+    padding: 5px; } }
 
 @media only screen and (max-width: 388px) and (min-width: 320px) {
   .review .review-item-wrapper {
@@ -6253,5 +6263,9 @@ img {
   .review .review-item .title {
     width: 110%;
     left: -15px; } }
+
+@media only screen and (max-width: 340px) and (min-width: 320px) {
+  #mainbutton a {
+    padding: 0; } }
 
 /*# sourceMappingURL=style.css.map */

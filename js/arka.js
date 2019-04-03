@@ -292,6 +292,7 @@ $('.review .review-wrapper').slick({
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
+  adaptiveHeight: true,
   responsive: [
     {
       breakpoint: 1024,
@@ -303,7 +304,7 @@ $('.review .review-wrapper').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 668,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1

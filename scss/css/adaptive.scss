@@ -10,6 +10,14 @@ html, body {
 input.btn, .btn {
     line-height: 1.5em;
 }
+// #content_carrier a {
+//   font-size: 16px;
+// }
+#contact_form form input:not(.btn), 
+#contact_form form textarea:not(.btn), 
+#contact_form form select:not(.btn) {
+    border: 1px solid #ccc;
+}
 #content_carrier h1 {
   line-height: 1.5em;
 }
@@ -17,7 +25,9 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+#content .steps h2 {
+  margin-bottom: 20px;
+}
 .submenu2 {
     display: none;
 }
@@ -303,7 +313,7 @@ width: 230px;
       width: 100%;
   }
   .video_carrier {
-    padding: 0 15px;
+    padding: 0 20px;
   }
   .contacts_carrier .fon3 {
     padding: 0;
@@ -372,6 +382,9 @@ form.mainbutton p strong {
   #content .steps .step3 .desc {
       margin: auto;
   }
+  #content_carrier .article-item {
+    padding: 0;
+  }
   .mob-nav {
 		width: 100%;
 	}
@@ -404,7 +417,7 @@ form.mainbutton p strong {
   }
   .gallery .group-item-body .gallery-item img {
     margin: auto;
-    width: auto;
+    width: 100%;
   }
   .products_row .product-item {
       float: none;
@@ -454,7 +467,7 @@ form.mainbutton p strong {
     margin-bottom: 30px;
   }
   .bg-page {
-    margin-top: 73px;
+    margin-top: 70px;
   }
 
   #mainbutton a {
@@ -479,6 +492,9 @@ form.mainbutton p strong {
   }
   #mainbutton .colon_fon {
       margin-top: 75px;
+  }
+  #mainbutton .colon_fon.mt-60  {
+    margin-top: 60px;
   }
   #mainbutton .carrier {
     flex-wrap: nowrap;
@@ -521,9 +537,7 @@ h2 {
       width: 100%;
       margin: 0 20px;
   }
-#mainbutton a {
-    padding: 0;
-  }
+
 #contenttabs .tab-content .fa, #contenttabs .tab-content .btn {
     width: 100%;
     display: block;
@@ -533,7 +547,7 @@ h2 {
   display: none;
  }
  input.btn.btn-small.icons, .btn.btn-small.icons {
-  padding: 5px 0;
+  padding: 5px;
  }
 }
 @media only screen and (max-width: 388px) and (min-width: 320px){
@@ -544,4 +558,10 @@ h2 {
     width: 110%;
     left: -15px;
   }
+}
+@media only screen and (max-width: 340px) and (min-width: 320px){
+#mainbutton a {
+  padding: 0;
+}
+
 }
