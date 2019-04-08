@@ -13,6 +13,7 @@ input.btn, .btn {
 .carrier input.btn, .btn {
   line-height: inherit;
 }
+
 #contact_form form input:not(.btn), 
 #contact_form form textarea:not(.btn), 
 #contact_form form select:not(.btn)
@@ -566,4 +567,17 @@ h2 {
   padding: 0;
 }
 
+}
+ // .slicknav_menu {
+ //  display: none;
+ // }
+@media screen and (max-width: 40em) {
+  /* #menu is the original menu */
+  .js #menu2 {
+    display:none;
+  }
+  
+  .js .slicknav_menu {
+    display:block;
+  }
 }

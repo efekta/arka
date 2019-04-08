@@ -6273,4 +6273,11 @@ img {
   #mainbutton a {
     padding: 0; } }
 
+@media screen and (max-width: 40em) {
+  /* #menu is the original menu */
+  .js #menu2 {
+    display: none; }
+  .js .slicknav_menu {
+    display: block; } }
+
 /*# sourceMappingURL=style.css.map */
