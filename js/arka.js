@@ -257,7 +257,7 @@ function overallHeight() {
     $('.mob-nav').toggleClass("show");
   });
 
-  $('#menu').slicknav({
+  $('#menu2').slicknav({
     // label: '',
     // duration: 1000,
     // easingOpen: "easeOutBounce", //available with jQuery UI
