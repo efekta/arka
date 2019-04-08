@@ -257,11 +257,11 @@ function overallHeight() {
     $('.mob-nav').toggleClass("show");
   });
 
-  $('#menu2').slicknav({
-    label: '',
-    duration: 1000,
-    easingOpen: "easeOutBounce", //available with jQuery UI
-    prependTo:'#demo2'
+  $('#menu').slicknav({
+    // label: '',
+    // duration: 1000,
+    // easingOpen: "easeOutBounce", //available with jQuery UI
+    // prependTo:'#demo2'
   });
 
   // var accordionsMenu = $('.cd-accordion-menu');
