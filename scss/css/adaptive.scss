@@ -10,9 +10,9 @@ html, body {
 input.btn, .btn {
     line-height: 1.5em;
 }
-// #content_carrier a {
-//   font-size: 16px;
-// }
+.carrier input.btn, .btn {
+  line-height: inherit;
+}
 #contact_form form input:not(.btn), 
 #contact_form form textarea:not(.btn), 
 #contact_form form select:not(.btn)
