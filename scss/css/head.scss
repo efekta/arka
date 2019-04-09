@@ -2,10 +2,8 @@
 	// background: url("../img/bg-head.png") top left repeat;
 	color:#FFF;
 	padding-top: 60px;
-    position: relative;
-    z-index: 999;
 }
-#topnav{
+#topnav {
 	background: url("../img/bg-head.png") top left repeat;
 	border-bottom:1px solid #46126d;
 	position: fixed;
@@ -65,12 +63,15 @@
 }
 .rel {
     position: relative;
+    z-index: 9999;
 }
 #topnav .phone {
     padding: 7px 15px 7px 10px;
     // margin-left: 50px;
     float: right;
+    color: #fff;
     span {
+        color: #fff;
     	display: block;
     	font-size: 20px;
     	margin-bottom: 3px;
@@ -83,7 +84,7 @@
 	    text-align: right;
     }
 }
-#topnav .date {
+.rel .date {
     background-color: #d01920;
     color: #fff;
     position: absolute;
@@ -91,8 +92,9 @@
     right: 210px;
     width: 60px;
     padding: 5px 0;
+    z-index: 222;
 }
-#topnav .date:before, #topnav .date:after {
+.rel .date:before, .rel .date:after {
     content: "";
     display: block;
     position: absolute;
@@ -101,19 +103,19 @@
     -ms-transform: scale(1, 0.5);
     transform: scale(1, 0.5);
 }
-#topnav .date:before {
+.rel .date:before {
     border: 20px solid transparent;
     border-left: 20px solid #d01920;
     border-top: 20px solid #d01920;
     left: 0;
 }
-#topnav .date:after {
+.rel .date:after {
     border: 20px solid transparent;
     border-top: 20px solid #d01920;
     border-right: 20px solid #d01920;
     right: 0;
 }
-#topnav .date span {
+.rel .date span {
     display: inline-block;
     width: 100%;
     text-transform: uppercase;
@@ -124,7 +126,7 @@
     margin: 0;
     line-height: 0.7em;
 }
-#topnav .date span.year {
+.rel .date span.year {
     font-size: 30px;
 }
 /* ВЕРХНЕЕ МЕНЮ */
