@@ -6280,6 +6280,7 @@ img {
 .slicknav_nav {
   background-color: #46126d;
   position: fixed;
+  display: none;
   right: 0;
   top: 60px;
   bottom: 0;
