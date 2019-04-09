@@ -660,11 +660,12 @@ h2 {
   
   .slicknav_menu {
     display: block;
-    position: relative;
+    position: fixed;
+    right: 0;
     z-index: 9998;
   }
   .rel .date {
-      top: -57px;
+      // top: -57px;
       right: 70px;
   }
 }
@@ -678,7 +679,7 @@ h2 {
     top: 130px;
   }
   .rel .date {
-      top: -57px;
+      // top: -57px;
       left: 0;
   }
 }

@@ -5089,7 +5089,7 @@ form.mainbutton input.btn:active,
 .rel .date {
   background-color: #d01920;
   color: #fff;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 210px;
   width: 60px;
@@ -6358,10 +6358,10 @@ img {
     display: none; }
   .slicknav_menu {
     display: block;
-    position: relative;
+    position: fixed;
+    right: 0;
     z-index: 9998; }
   .rel .date {
-    top: -57px;
     right: 70px; } }
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
@@ -6372,7 +6372,6 @@ img {
   .slicknav_nav {
     top: 130px; }
   .rel .date {
-    top: -57px;
     left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
