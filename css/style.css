@@ -5868,7 +5868,7 @@ img {
     padding: 0 20px; }
   #topnav .date {
     right: 70px;
-    z-index: 1000; }
+    z-index: 9; }
   #topnav .phone {
     float: left; }
   #topnav .top-nav {
@@ -6274,13 +6274,83 @@ img {
     padding: 0; } }
 
 .slicknav_menu {
-  display: none; }
+  display: none;
+  background-color: transparent; }
+
+.slicknav_nav {
+  background-color: #46126d;
+  position: fixed;
+  right: 0;
+  top: 60px;
+  bottom: 0;
+  width: 360px;
+  -webkit-transition: left .4s,opacity .3s;
+  -o-transition: left .4s,opacity .3s;
+  transition: left .4s,opacity .3s;
+  padding: 30px; }
+
+.slicknav_menu .slicknav_menutxt {
+  font-size: 0; }
+
+.slicknav_btn {
+  background-color: transparent;
+  outline: none;
+  margin-top: 10px; }
+
+.slicknav_nav .slicknav_row {
+  font-size: 24px; }
+
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+  padding-left: 0;
+  margin: 0; }
+
+.slicknav_nav li a {
+  padding: 15px 20px 15px 0;
+  border-bottom: 1px solid #fff; }
+
+.slicknav_nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px; }
+
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.slicknav_nav .slicknav_txtnode {
+  font-size: 20px;
+  padding: 15px 20px 15px 0;
+  margin-left: 0;
+  border-bottom: 1px solid #fff; }
+
+.slicknav_nav .slicknav_row:hover {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: #46126d !important;
+  color: #fff; }
+
+.slicknav_nav a:hover {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: #46126d !important;
+  color: #fff; }
+
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+  padding: 15px 20px 15px 0; }
 
 @media only screen and (max-width: 1284px) and (min-width: 320px) {
   /* #menu is the original menu */
-  .js #menu2 {
+  #menu2 {
     display: none; }
-  .js .slicknav_menu {
-    display: block; } }
+  .slicknav_menu {
+    display: block;
+    position: relative;
+    z-index: 9999; } }
 
 /*# sourceMappingURL=style.css.map */
