@@ -5020,7 +5020,9 @@ form.mainbutton input.btn:active,
 
 #head {
   color: #FFF;
-  padding-top: 60px; }
+  padding-top: 60px;
+  position: relative;
+  z-index: 999; }
 
 #topnav {
   background: url("../img/bg-head.png") top left repeat;
@@ -5065,6 +5067,9 @@ form.mainbutton input.btn:active,
   #topnav .top-nav,
   #topnav .phone {
     float: left; }
+
+.rel {
+  position: relative; }
 
 #topnav .phone {
   padding: 7px 15px 7px 10px;
@@ -6352,7 +6357,7 @@ img {
   .slicknav_menu {
     display: block;
     position: relative;
-    z-index: 9999; } }
+    z-index: 9998; } }
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
   .slicknav_nav {

@@ -651,6 +651,7 @@ h2 {
 .slicknav_nav .slicknav_row, .slicknav_nav a {
 	padding: 15px 20px 15px 0;
 }
+
 @media only screen and (max-width: 1284px) and (min-width: 320px) {
   /* #menu is the original menu */
   #menu2 {
@@ -660,8 +661,11 @@ h2 {
   .slicknav_menu {
     display: block;
     position: relative;
-    z-index: 9999;
+    z-index: 9998;
   }
+  // .slicknav_open .slicknav_menu {
+  //    z-index: 1;
+  // }
 }
 @media only screen and (max-width: 768px) and (min-width: 320px) {
 .slicknav_nav {

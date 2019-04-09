@@ -2,6 +2,8 @@
 	// background: url("../img/bg-head.png") top left repeat;
 	color:#FFF;
 	padding-top: 60px;
+    position: relative;
+    z-index: 999;
 }
 #topnav{
 	background: url("../img/bg-head.png") top left repeat;
@@ -60,6 +62,9 @@
 	.phone{
 		float: left;
 	}
+}
+.rel {
+    position: relative;
 }
 #topnav .phone {
     padding: 7px 15px 7px 10px;
