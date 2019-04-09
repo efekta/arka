@@ -252,10 +252,10 @@ function overallHeight() {
   /*========================
    mob menu
    =======================*/
-  $(".menu-toggle").on('click', function() {
-    $(this).toggleClass("on");
-    $('.mob-nav').toggleClass("show");
-  });
+  // $(".menu-toggle").on('click', function() {
+  //   $(this).toggleClass("on");
+  //   $('.mob-nav').toggleClass("show");
+  // });
 
   $('#menu2').slicknav({
     // label: '',
