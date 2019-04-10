@@ -5819,6 +5819,9 @@ input.btn, .btn {
 .carrier input.btn, .btn {
   line-height: inherit; }
 
+a {
+  outline: none; }
+
 #contact_form form input:not(.btn),
 #contact_form form textarea:not(.btn),
 #contact_form form select:not(.btn)
@@ -6295,7 +6298,22 @@ img {
   -webkit-transition: left .4s,opacity .3s;
   -o-transition: left .4s,opacity .3s;
   transition: left .4s,opacity .3s;
-  padding: 30px; }
+  padding: 30px;
+  overflow-y: scroll; }
+
+.slicknav_nav::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  background-color: transparent; }
+
+.slicknav_nav::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent; }
+
+.slicknav_nav::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3);
+  background-color: transparent; }
 
 .slicknav_menu .slicknav_menutxt {
   font-size: 0; }
